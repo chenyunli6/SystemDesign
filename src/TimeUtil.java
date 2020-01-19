@@ -35,4 +35,9 @@ public class TimeUtil {
         String year = format.format(y);
         System.out.println("过去一年："+year);
     }
+
+    public static void main(String[] args) {
+        TimeUtil timeUtil = new TimeUtil();
+        timeUtil.printTestValue();
+    }
 }

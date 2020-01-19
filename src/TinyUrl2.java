@@ -51,4 +51,13 @@ public class TinyUrl2 {
         }
         return "error";
     }
+
+    public static void main(String[] args) {
+        TinyUrl2 tinyUrl2 = new TinyUrl2();
+        System.out.println(tinyUrl2.createCustom("http://www.lintcode.com/", "lccode"));
+        System.out.println(tinyUrl2.longToShort("http://www.lintcode.com/problem/"));
+        System.out.println(tinyUrl2.shortToLong("http://tiny.url/lccode"));
+        System.out.println(tinyUrl2.createCustom("http://www.lintcode.com/", "lc"));
+        System.out.println(tinyUrl2.createCustom("http://www.lintcode.com/en/ladder/", "lccode"));
+    }
 }
